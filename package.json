@@ -1,0 +1,36 @@
+{
+  "name": "nw-utils",
+  "version": "0.0.1",
+  "description": "封装得通用的工具函数",
+  "packageManager": "npm@6.14.15",
+  "main": "lib/nw-utils.cjs.js",
+  "module": "lib/nw-utils.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "doc": "typedoc --entryPointStrategy expand ./src --options typedoc.json"
+  },
+  "author": "wallowyou <wallowyou@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.0.3",
+    "lodash-es": "^4.17.21",
+    "prettier": "^2.7.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^29.0.2",
+    "tslib": "^2.4.0",
+    "typedoc": "^0.23.15",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {}
+}
