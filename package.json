@@ -23,6 +23,19 @@
       "eslint --fix"
     ]
   },
+  "homepage": "https://github.com/wallowyou/nw-utils",
+  "bugs": {
+    "url": "https://github.com/wallowyou/nw-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallowyou/nw-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "nw",
+    "typescript"
+  ],
   "author": "wallowyou <wallowyou@outlook.com>",
   "license": "MIT",
   "devDependencies": {
