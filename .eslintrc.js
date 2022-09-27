@@ -22,7 +22,12 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-debugger': 'warn',
-    'linebreak-style': ['error', 'unix']
+    '@typescript-eslint/no-explicit-any': ['off'],
+    '@typescript-eslint/ban-types': ['off'],
+    '@typescript-eslint/no-var-requires': ['off'],
+    '@typescript-eslint/no-non-null-assertion': ['off'],
+    'no-useless-escape': ['off'],
+    'prettier/prettier': ['off']
   },
   overrides: [
     {

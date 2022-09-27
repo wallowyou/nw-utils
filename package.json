@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "封装得通用的工具函数",
   "packageManager": "npm@6.14.15",
-  "main": "lib/nw-utils.cjs.js",
-  "module": "lib/nw-utils.esm.js",
+  "main": "dist/nw-utils.cjs.js",
+  "module": "dist/nw-utils.esm.js",
   "scripts": {
     "build": "rollup -c",
-    "doc": "typedoc --entryPointStrategy expand ./src --options typedoc.json"
+    "doc": "typedoc  --options typedoc.json",
+    "test": "jest --no-cache --collect-coverage"
   },
   "author": "wallowyou <wallowyou@outlook.com>",
   "license": "MIT",
@@ -19,9 +20,11 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "^29.0.3",
+    "jest-environment-jsdom": "^29.0.3",
     "lodash-es": "^4.17.21",
     "prettier": "^2.7.1",
     "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",

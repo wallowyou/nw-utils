@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import json from 'rollup-plugin-json'
 import { eslint } from 'rollup-plugin-eslint'
 export default {
-  input: './src/main.ts',
+  input: './src/index.ts',
   plugins: [
     typescript({
       exclude: 'node_modules/**',
@@ -22,7 +22,7 @@ export default {
       throwOnError: true, // lint 结果有错误将会抛出异常
       throwOnWarning: true,
       include: ['src/**/*.ts'],
-      exclude: ['node_modules/**', 'lib/**', '*.js']
+      exclude: ['node_modules/**', 'dist/**', '*.js']
     })
   ],
   // 指出应将哪些模块视为外部模块
@@ -30,12 +30,12 @@ export default {
   output: [
     {
       format: 'cjs',
-      file: 'lib/nw-utils.cjs.js',
+      file: 'dist/nw-utils.cjs.js',
       sourcemap: true
     },
     {
       format: 'es',
-      file: 'lib/nw-utils.esm.js',
+      file: 'dist/nw-utils.esm.js',
       sourcemap: true
     }
   ]

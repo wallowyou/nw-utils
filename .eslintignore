@@ -1,5 +1,5 @@
-node_modules
-coverage
-docs
-lib
 dist
+node_modules
+docs
+coverage
+
