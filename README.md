@@ -1,6 +1,5 @@
 # nw-utils
 
-[![license](https://img.shields.io/github/license/kailong321200875/tool-helper.svg)](LICENSE)
 
 **English** | [中文](./README.zh-CN.md)
 
