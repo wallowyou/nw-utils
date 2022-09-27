@@ -6,19 +6,37 @@
   "main": "dist/nw-utils.cjs.js",
   "module": "dist/nw-utils.esm.js",
   "scripts": {
+    "prepare": "husky install",
     "build": "rollup -c",
     "doc": "typedoc  --options typedoc.json",
-    "test": "jest --no-cache --collect-coverage"
+    "test": "jest --no-cache --collect-coverage",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,js,vue}": [
+      "eslint --fix"
+    ]
   },
   "author": "wallowyou <wallowyou@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/jest": "^29.0.3",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
     "jest": "^29.0.3",
     "jest-environment-jsdom": "^29.0.3",
     "lodash-es": "^4.17.21",
@@ -30,6 +48,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript": "^1.0.1",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.0.2",
     "tslib": "^2.4.0",
     "typedoc": "^0.23.15",

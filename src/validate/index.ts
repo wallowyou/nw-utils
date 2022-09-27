@@ -2,6 +2,11 @@
  * 判断是否是手机号码
  * @param {string} val
  * @returns {*} 如果是正确手机号，那么返回true
+ * @example
+ * ``` typescript
+ * validatorPhone('18709098765') // 返回true
+ * validatorPhone('1870909897') // 返回false
+ * ```
  */
 export const validatorPhone = (val: string): boolean => {
   const reg = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$/
