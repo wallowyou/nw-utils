@@ -1,4 +1,4 @@
-# nw-utils
+# nw-tools
 
 
 **English** | [中文](./README.zh-CN.md)
