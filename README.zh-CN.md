@@ -18,19 +18,19 @@
 ### npm
 
 ```shell
-npm i nw-utils -S
+npm i nw-tools -S
 ```
 
 ### pnpm
 
 ```shell
-pnpm i nw-utils -S
+pnpm i nw-tools -S
 ```
 
 ### yarn
 
 ```shell
-yarn add nw-utils
+yarn add nw-tools
 ```
 
 ## 使用
@@ -38,7 +38,7 @@ yarn add nw-utils
 ### ESM
 
 ```ts
-import { is } from 'nw-utils'
+import { is } from 'nw-tools'
 
 is('test', 'Number')
 ```
@@ -46,9 +46,9 @@ is('test', 'Number')
 ### CJS
 
 ```js
-const nwUtils = require('nw-utils')
+const nwTools = require('nw-tools')
 
-nwUtils.is('test', 'Number')
+nwTools.is('test', 'Number')
 ```
 
 

@@ -30,12 +30,12 @@ export default {
   output: [
     {
       format: 'cjs',
-      file: 'dist/nw-utils.cjs.js',
+      file: 'dist/nw-tools.cjs.js',
       sourcemap: true
     },
     {
       format: 'es',
-      file: 'dist/nw-utils.esm.js',
+      file: 'dist/nw-tools.esm.js',
       sourcemap: true
     }
   ]
