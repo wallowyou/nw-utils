@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/wallowyou/nw-utils/compare/v0.0.3...v0.0.4) (2022-09-28)
+
+
+### Features
+
+* 增加ts支持 ([021f6d9](https://github.com/wallowyou/nw-utils/commit/021f6d95548ca79d04cfba86ebc802799b70e35b))
+
 ### [0.0.3](https://github.com/wallowyou/nw-utils/compare/v0.0.2...v0.0.3) (2022-09-28)
 
 
