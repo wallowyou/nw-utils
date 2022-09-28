@@ -1,6 +1,6 @@
 {
   "name": "nw-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "封装的通用的工具函数",
   "packageManager": "npm@6.14.15",
   "main": "dist/nw-tools.cjs.js",

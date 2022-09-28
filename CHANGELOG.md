@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/wallowyou/nw-utils/compare/v0.0.2...v0.0.3) (2022-09-28)
+
+
+### Features
+
+* 文件入口修改 ([9ff44c6](https://github.com/wallowyou/nw-utils/commit/9ff44c6dbe13354526340b2053f891e2cf116497))
+
 ### [0.0.2](https://github.com/wallowyou/nw-utils/compare/v0.0.1...v0.0.2) (2022-09-28)
 
 
