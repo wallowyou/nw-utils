@@ -5,6 +5,7 @@
   "packageManager": "npm@6.14.15",
   "main": "dist/nw-tools.cjs.js",
   "module": "dist/nw-tools.esm.js",
+  "types": "dist/nw-tools.d.ts",
   "files": [
     "dist"
   ],
